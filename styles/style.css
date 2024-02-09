@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+/* navbar started */
+.nav-items {
+    font-size: 2rem;
+}
+
+.header-logo {
+    width: 165px;
+}
+#franchise-btn{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    padding: 15px 20px;
+    border-radius: 25px;
+}
+#order-btn{
+    background-color: #ed1c24;
+    border: 0px;
+    padding: 15px 20px;
+    border-radius: 25px;
+}
+
+/* navbar ended
+
+/* main */
+
+.banner_img{
+    width: 100%;
+}
+
+.banner_container{
+    margin-top: 25px;
+}
+
+.h_p{
+    color: #ffffff;
+    margin-top: 3%;
+}
+
+h2{
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+h2 span{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 52px;
+    color: #ffffff;
+}
+
+p{
+    text-align: center;
+}
+
+
+.img{
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+
+.container_image{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    margin-left: 210px;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+ .section{
+color: #ffffff;
+}
+
+.section{
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+
+.section_one{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.section_two{
+    font-family: 'Apercu';
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+
+.section_three{
+    text-align: center;
+} 
+
+/* resturant franchise started */
+
+.container_3big{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    color: #ffffff;
+}
+
+
+.text_3big{
+    padding: 30px;
+    font-size: 25px;
+}
+
+.b33ig_text{
+    color: #cf1313;
+}
+
+.bi3g_btn{
+    width: 180px;
+    height: 70px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 35px;
+}
+
+/* resturant franchise ended */
+
+/* c1ontainer_imge */
+
+.c1ontainer_image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 80px 0 0 0;
+}
+
+.c1ontainer_img{
+    width: 400px;
+}
+
+.c1ontainer_text{
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #cf1313;
+    margin-top: 21px;
+}
+
+span.ex_span{
+    font-size: 25px;
+}
+.c2ontainer_text{
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Apercu';
+    font-weight: 900;
+    font-size: 35px;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.c3ontainertext{
+    color: #fbf6f6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 21px;
+    color: #fffafa;
+}
+
+div.container_big{
+    flex-direction: column;
+}
+
+.direction_btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 5px;
+    font-weight: 800;
+}
+
+#d_btn{
+    background-color: #000000;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+#dd_btn{
+    background-color: #000000;
+    margin-left: 300px;
+}
+
+#ddd_btn{
+    background-color: #000000;
+    margin-left: 350px;
+}
+
+/* village ranchise started */
+
+.container_2big{
+    display: flex;
+    margin-top: 70px;
+    color: #241919;
+}
+
+
+.text_2big{
+    margin:10px 0px 0px  79px;
+    padding: 40px;
+    font-size: 25px;
+}
+
+.b22ig_text{
+    color: #1c1515;
+}
+
+.bi2g_btn{
+    width: 180px;
+    height: 60px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 35px;
+    font-weight: 900;
+    background-color: rgb(111, 191, 111);
+}
+
+/* village franchise end */
+
+
+
+
+/* express franchises opening soon statted  */
+
+span.text_holdd{
+    font-size: 45px;
+    font-weight: 100;
+    margin-left: 20px;
+}
+
+.container_2image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.location_bigicon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.location_icon{
+    background-color: #1f1a1a;
+    padding: 65px;
+}
+
+.location_iconimg{
+    margin-left: 15px;
+    margin-bottom: 30px;
+
+}
+
+.opening_soon{
+    color: #cf1313;
+}
+
+.h4_salt{
+font-size: 25px;
+}
+
+.h4_garden{
+font-size: 25px;
+}
+
+.h4_city{
+font-size: 25px;
+}
+
+/* express franchises opening soon ended  */
+
+
+/* social started */
+
+.container_socialimg{
+    margin-left:50px ;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.social_img{
+    width: 19%;
+}
+
+/* social end */
+
+/* express franchise opening soon ended */
+
+
+/* footer started */
+
+.big_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: #ffffff;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 2px solid #1b1a1a;
+}
+
+.footer_imgg{
+    width:300px ;
+}
+
+h3.scf_footer{
+    font-size: 30px;
+    color: #cf1313;
+}
+
+h3.footer_imgtext{
+    color: #ffffff;
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+div.site_link a{
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    margin: 15px;
+    font-size: 20px;
+}
+
+div.contact_us a{
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    margin: 15px;
+    font-size: 20px;
+}
+
+div.foolow_us a{
+   color: #ffffff; 
+   text-decoration: none;
+   display: flex;
+   margin: 15px;
+}
+
+div.follow_us img{
+    margin-top: 20px;
+    width: 180px;
+}
+
+.end_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #ffffff;
+    margin: 0px 50px 40px 30px;
+    font-size: 15px;
+}
+
+span.span_endcont{
+    font-weight: 100;
+    font-size: 14px;
+}
+
+h3.h3_end2{
+    font-weight: 500;
+    font-size: 15px;
+}
+/* footer ended */
